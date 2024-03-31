@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(118, 163, 197, 0.847);
+}
+h1{
+    font-family: Garamond;
+    border: 2px solid rgb(57, 53, 54);
+    border-radius: 40px;
+    outline: style;
+    outline-style: solid;
+    outline-color: #0056b3;
+}
+h3{
+    width: 50px;
+    height: 10px;
+    position: relative;
+    top:10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 0.3px;
+    color: black;
+}
+h2{
+    text-align: right;
+}
+#gameContainer {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9bebe;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 4px solid rgb(20, 96, 209);
+}
+#choices button {
+    padding: 15px 25px;
+    background-color: #f0db4f;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px;
+    transition: background-color 0.3s;
+    border: 3.5px solid rgb(225, 13, 13);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#choices button:hover {
+    background-color: #0056b3;
+}
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 3px solid #0056b3;
+    border-radius: 3px;
+    background-color: rgb(230, 185, 158);
+}
